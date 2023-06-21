@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #303433;
+    
+}
+
+.body2 {
+    min-height: 100vh;
+    width: 100%;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg id='visual' viewBox='0 0 900 600' width='900' height='600' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3e%3crect x='0' y='0' width='900' height='600' fill='%23ffffff'%3e%3c/rect%3e%3cdefs%3e%3clinearGradient id='grad1_0' x1='33.3%25' y1='0%25' x2='100%25' y2='100%25'%3e%3cstop offset='20%25' stop-color='%23ffffff' stop-opacity='1'%3e%3c/stop%3e%3cstop offset='80%25' stop-color='%23ffffff' stop-opacity='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3cdefs%3e%3clinearGradient id='grad2_0' x1='0%25' y1='0%25' x2='66.7%25' y2='100%25'%3e%3cstop offset='20%25' stop-color='%23ffffff' stop-opacity='1'%3e%3c/stop%3e%3cstop offset='80%25' stop-color='%23ffffff' stop-opacity='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3cg transform='translate(900, 0)'%3e%3cpath d='M0 405.6C-61.6 379.6 -123.3 353.6 -186.5 323C-249.7 292.5 -314.5 257.4 -351.3 202.8C-388.1 148.2 -396.8 74.1 -405.6 0L0 0Z' fill='%230066FF'%3e%3c/path%3e%3c/g%3e%3cg transform='translate(0, 600)'%3e%3cpath d='M0 -405.6C63.2 -382.4 126.5 -359.1 189.5 -328.2C252.5 -297.3 315.3 -258.8 351.3 -202.8C387.3 -146.8 396.4 -73.4 405.6 0L0 0Z' fill='%230066FF'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");
+    background-size: cover;
+}
+
+.row{
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg id='visual' viewBox='0 0 900 600' width='900' height='600' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3e%3crect x='0' y='0' width='900' height='600' fill='%23ffffff'%3e%3c/rect%3e%3cdefs%3e%3clinearGradient id='grad1_0' x1='33.3%25' y1='0%25' x2='100%25' y2='100%25'%3e%3cstop offset='20%25' stop-color='%23ffffff' stop-opacity='1'%3e%3c/stop%3e%3cstop offset='80%25' stop-color='%23ffffff' stop-opacity='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3cdefs%3e%3clinearGradient id='grad2_0' x1='0%25' y1='0%25' x2='66.7%25' y2='100%25'%3e%3cstop offset='20%25' stop-color='%23ffffff' stop-opacity='1'%3e%3c/stop%3e%3cstop offset='80%25' stop-color='%23ffffff' stop-opacity='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3cg transform='translate(900, 0)'%3e%3cpath d='M0 405.6C-61.6 379.6 -123.3 353.6 -186.5 323C-249.7 292.5 -314.5 257.4 -351.3 202.8C-388.1 148.2 -396.8 74.1 -405.6 0L0 0Z' fill='%230066FF'%3e%3c/path%3e%3c/g%3e%3cg transform='translate(0, 600)'%3e%3cpath d='M0 -405.6C63.2 -382.4 126.5 -359.1 189.5 -328.2C252.5 -297.3 315.3 -258.8 351.3 -202.8C387.3 -146.8 396.4 -73.4 405.6 0L0 0Z' fill='%230066FF'%3e%3c/path%3e%3c/g%3e%3c/svg%3e");
+    background-size: cover;
+}
+
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.side {
+    background: url(/img/img.png) no-repeat;
+    background-size: 100% 101%;
+}
+
+.side img {
+    width: 70%;
+    /* position: fixed; */
+    max-width: 100%;
+    margin-left: 100px;
+    margin-top: 15%;
+    /* bottom: 0; */
+    /* left: 60px; */
+}
+
+.login-container {
+    max-width: 500px;
+    padding: 50px;
+    background-color: white;
+    border: solid #0051ff 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linee{
+    height: 2px;
+    width: 100%;
+    background-color: #b4adad;
+    flex: 1;
+}
+.judul {
+    text-transform: uppercase;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.header {
+    
+    font-size: 1em;
+    font-weight: bold;
+    
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+
+.separator {
+    width: 500px;
+    height: 1px;
+    border-radius: 5px;
+    background-color: #0051ff;
+    margin: 14px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.welcome-message {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #696969;
+}
+
+.login-formm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-controll {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+    
+}
+
+input,
+.buttonn {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+input {
+    width: 100%;
+    background: #e6e6e6;
+    color: #333;
+    letter-spacing: 0.5px;
+    padding: 14px 64px;
+}
+input.regis{
+    padding-right: 64px;
+    padding-left: 25px;
+}
+
+input ~ i {
+    position: absolute;
+    left: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    transition: color   0.4s;
+}
+
+input:focus ~ i {
+    color: #005eff;
+}
+.buatAKun:hover{
+    text-decoration: underline !important;
+}
+button.submitt,
+button.guru{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.4s;
+}
+
+button.submitt {
+    padding: 10px 64px;
+    margin: 10px auto;
+    margin-top: 10px;
+    background-color: #005eff;
+}
+button.guru {
+    padding: 10px 30px;
+    margin: auto;
+    background-color: #005eff;
+    /* background-image: linear-gradient(to right, #CB7250, #9D6574); */
+}
+.atauu{
+    color: #969393;
+    padding: 0 16px;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+button.submitt:hover,
+button.buttonn:hover {
+    opacity: 0.7;
+}
+/* No Koneksi */
+.noKoneksi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 31, 31, 0.873); /* Warna latar belakang semi-transparan */
+    z-index: 9999;
+    opacity: 1;
+}
+
+/* ----  Responsiveness   ----  */
+@media (max-width: 780px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side {
+        display: none;
+    }
+    
+    .loginSiswa{
+        position: fixed ;
+        transform: translate(-50%,-50%) ;
+        left: 50% ;
+        top: 50% ;
+    }
+
+    .login-container {
+        max-width: 450px;
+        padding: 8px 24px 8px 24px;
+    }
+    
+}
